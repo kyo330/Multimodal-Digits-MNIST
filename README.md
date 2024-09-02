@@ -1,1 +1,3 @@
 # Multimodal-Digits-MNIST
+
+This work explores the effectiveness of multimodal deep learning for classifying handwritten digits and audio MNIST dataset. We extend the traditional image-based MNIST by incorporating an audio channel where each digit is sonically represented. The model utilizes separate convolutional neural networks (CNNs) for both image and audio data, followed by a fusion layer to combine the extracted features. The final classification layer predicts the digit class. The experiments achieved an accuracy of approx 99% . This demonstrates the potential of multimodal deep learning in leveraging complementary information from different modalities to enhance classification performance on the MNIST dataset.
